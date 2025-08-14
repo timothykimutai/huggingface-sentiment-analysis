@@ -6,7 +6,7 @@
 ![Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-2.14%2B-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-This project is an end-to-end demonstration of fine-tuning a pretrained Transformer model for a text classification task. We use the `distilbert-base-uncased` model to perform sentiment analysis on the IMDB movie review dataset, classifying reviews as either **positive** or **negative**.
+This project is an end-to-end demonstration of fine-tuning a pretrained Transformer model for a text classification task. I use the `distilbert-base-uncased` model to perform sentiment analysis on the IMDB movie review dataset, classifying reviews as either **positive** or **negative**.
 
 The entire workflow, from data loading to model deployment, is containerized in the main Jupyter Notebook.
 
@@ -30,7 +30,7 @@ The goal is to build a reliable sentiment classifier by fine-tuning a modern NLP
 
 The final model is publicly available on the Hugging Face Hub. You can use it for inference directly in your own projects with just a few lines of code.
 
-**Model Hub Link:** [**timothykimutai/distilbert-imdb-sentiment-analysis**](https://huggingface.co/timothykimutai/distilbert-imdb-sentiment-analysis)
+**Model Hub Link:** [**timkilikimtai/distilbert-imdb-sentiment-analysis**](https://huggingface.co/timkilikimtai/distilbert-imdb-sentiment-analysis)
 
 ### Quick Inference
 
