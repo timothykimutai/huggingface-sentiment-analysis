@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log and model output folders
+logs/
+distilbert-imdb-sentiment-analysis/
+
+# Virtual environment
+venv/
+.env
+
+# System files
+.DS_Store

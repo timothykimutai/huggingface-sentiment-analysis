@@ -1,0 +1,70 @@
+✅ Training complete.
+
+🧪 Evaluating on the test set...
+
+Test Set Evaluation Results:
+eval_loss: 0.3603
+eval_accuracy: 0.8660
+eval_f1: 0.8656
+eval_precision: 0.8728
+eval_recall: 0.8660
+eval_runtime: 525.2494
+eval_samples_per_second: 0.9520
+eval_steps_per_second: 0.0610
+epoch: 3.0000
+
+📊 Generating confusion matrix...
+Device set to use cpu
+
+🎬 Running inference on new reviews:
+Review: 'This movie was an absolute masterpiece! The acting was superb, and the plot was gripping.'
+Predicted Sentiment: POSITIVE (Confidence: 0.9884)
+------------------------------
+Review: 'I was really disappointed. The story was predictable and the characters were boring.'
+Predicted Sentiment: NEGATIVE (Confidence: 0.9895)
+------------------------------
+Review: 'The film was okay, not great but not terrible either. It had some good moments.'
+Predicted Sentiment: POSITIVE (Confidence: 0.8052)
+------------------------------
+Model saved locally at: ./distilbert-imdb-sentiment-analysis
+
+🚀 Pushing model to Hugging Face Hub...
+HF_TOKEN environment variable has been set.
+Model saved locally at: ./distilbert-imdb-sentiment-analysis
+
+🚀 Pushing model to Hugging Face Hub...
+✅ Model pushed to Hub! You can find it at: https://huggingface.co/https://huggingface.co/Timkilikimtai/distilbert-imdb-sentiment-analysis/tree/main/
+
+📋 Sample inference script using the deployed model from the Hub:
+----------------------------------------------------------------
+from transformers import pipeline
+pipe = pipeline("sentiment-analysis", model="https://huggingface.co/Timkilikimtai/distilbert-imdb-sentiment-analysis/tree/main/")
+result = pipe('I love the new model you deployed!')
+print(result)
+----------------------------------------------------------------
+Model saved locally at: ./distilbert-imdb-sentiment-analysis
+
+🚀 Pushing model to Hugging Face Hub...
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+An error occurred: unhashable type: 'CommitInfo'
+✅ Model and tokenizer saved locally at: ./distilbert-imdb-sentiment-analysis
+
+🚀 Pushing model to Hugging Face Hub...
+✅ Model and tokenizer saved locally at: ./distilbert-imdb-sentiment-analysis
+
+🚀 Pushing model to Hugging Face Hub...
+Repository 'Timkilikimtai/distilbert-imdb-sentiment-analysis' is ready on the Hub.
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+✅ Model successfully pushed to: https://huggingface.co/Timkilikimtai/distilbert-imdb-sentiment-analysis
+
+📋 You can now use your model from anywhere with this script:
+------------------------------------------------------------
+from transformers import pipeline
+pipe = pipeline("sentiment-analysis", model="Timkilikimtai/distilbert-imdb-sentiment-analysis")
+result = pipe('This new method for uploading works perfectly!')
+print(result)
+------------------------------------------------------------

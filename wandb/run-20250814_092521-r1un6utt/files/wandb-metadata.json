@@ -1,0 +1,23 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-08-14T09:25:21.279746Z",
+  "program": "IMDB%20dataset.ipynb",
+  "email": "timothykimtai@gmail.com",
+  "root": "/content",
+  "host": "c56d03ee816f",
+  "executable": "/usr/bin/python3",
+  "colab": "https://colab.research.google.com/notebook#fileId=1SZETQy_hbyCekUClFy7clSKRmiJSvFeL",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "disk": {
+    "/": {
+      "total": "115658190848",
+      "used": "42340950016"
+    }
+  },
+  "memory": {
+    "total": "13608361984"
+  },
+  "writerId": "hs6tu9zvpl1e06lqlefimlsq5epc61nq"
+}
